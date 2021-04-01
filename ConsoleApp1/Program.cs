@@ -14,7 +14,7 @@ namespace NrRationale
             NrRationale r1 = new NrRationale(10, 8);
             NrRationale r2 = new NrRationale(5, 9);
             NrRationale r3 = r1.Power(3);
-
+            Console.ReadKey();
         }
     }
 }
