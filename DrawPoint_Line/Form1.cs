@@ -30,7 +30,7 @@ namespace DrawPoint_Line
             }
             public void Draw(Graphics grp)
             {
-                grp.DrawEllipse(new Pen(Color.Red, 2), x, y, 2, 2);
+                grp.DrawEllipse(new Pen(Color.Red, 4), x, y, 4, 4);
             }
         }
 
